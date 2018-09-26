@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    retrn 'hello %s' % (socket.gethostname())
+    retrn 'hello %s, version 1.0' % (socket.gethostname())
 
 
 if __name__ == '__main__':
